@@ -1,0 +1,5 @@
+backups/
+src/git/gitconfig.copy
+src/git/gitconfig.symlink
+src/shell/localrc.symlink
+src/os/prefs/macos/defaults.sh

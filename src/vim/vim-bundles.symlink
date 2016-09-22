@@ -1,0 +1,25 @@
+" Initialize Vundle
+set rtp+=$HOME/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Bundles {
+
+  Plugin 'gmarik/vundle'
+
+  Plugin 'altercation/vim-colors-solarized'
+  Plugin 'ap/vim-css-color'
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'tpope/vim-sensible'
+  Plugin 'Townk/vim-autoclose'
+  Plugin 'StanAngeloff/php.vim'
+  Plugin 'lunaru/vim-twig'
+  Plugin 'jelera/vim-javascript-syntax'
+  Plugin 'godlygeek/tabular'
+  Plugin 'plasticboy/vim-markdown'
+  Plugin 'nathanaelkane/vim-indent-guides'
+  Plugin 'editorconfig/editorconfig-vim'
+  Plugin 'chase/vim-ansible-yaml'
+
+" }
+
+call vundle#end()

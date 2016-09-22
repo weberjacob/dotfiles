@@ -1,0 +1,3 @@
+[submodule "src/shell/oh-my-zsh.symlink"]
+	path = src/shell/oh-my-zsh.symlink
+	url = https://github.com/robbyrussell/oh-my-zsh
