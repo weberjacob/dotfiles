@@ -1,8 +1,5 @@
 #!/usr/bin/env zsh
 
-# Make Bash complete the `g` alias just like it does `git`.
-complete -o default -o nospace -F _git g
-
 # similar to top
 alias top='htop'
 
