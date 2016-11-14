@@ -1,5 +1,8 @@
+.DS_Store
 backups/
 src/git/gitconfig.copy
 src/git/gitconfig.symlink
 src/shell/localrc.symlink
 src/os/prefs/macos/defaults.sh
+src/vim/vim.symlink/bundle/
+src/vim/vim.symlink/undos/
