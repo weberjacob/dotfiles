@@ -7,10 +7,10 @@ cd "$DOTFILES_PATH" && \
 
 talk "I'll set UX/UI preferences"
 
-macos_pref "sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string 'Arbor' && \
-            sudo scutil --set ComputerName 'Arbor' && \
-            sudo scutil --set HostName 'Arbor' && \
-            sudo scutil --set LocalHostName 'Arbor'" \
+macos_pref "sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string 'jweberiMac' && \
+            sudo scutil --set ComputerName 'jweberiMac' && \
+            sudo scutil --set HostName 'jweberiMac' && \
+            sudo scutil --set LocalHostName 'jweberiMac'" \
   "Set computer name"
 
 macos_pref "defaults write com.apple.menuextra.battery ShowPercent -string 'NO'" \
